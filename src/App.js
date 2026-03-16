@@ -8,19 +8,19 @@ function App() {
       <h1>Our Teachers</h1>
       <TeacherCard
         name="Rafay Ali"
-        subject="Web Development"
+        subject="Database Systems"
         email="rafay.ali@nu.edu.pk"
         experience="2 Years"
-        bio="Mr. Rafay teaches web development and loves helping students learn modern technologies."
-        photo="https://i.pravatar.cc/150?img=11"
+        bio="Mr. Rafay teaches database systems and loves helping students learn modern technologies."
+        photo={require('./RafayAli.png')}
       />
       <TeacherCard
         name="Ahmad Kamran"
-        subject="Database Systems"
+        subject="Web Development"
         email="ahmad.kamran@nu.edu.pk"
-        experience="5 Years"
-        bio="Mr. Ahmad is an expert in databases and has worked with many top companies before teaching."
-        photo="https://i.pravatar.cc/150?img=47"
+        experience="2 Years"
+        bio="Mr. Ahmad is an expert in web development and has worked with many top companies before teaching."
+        photo={require('./AhmadKamran.png')}
       />
     </div>
   );
