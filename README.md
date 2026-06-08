@@ -16,19 +16,6 @@ A React-based web application showcasing teacher profiles with their subject exp
 - **Styling:** CSS
 - **Language:** JavaScript (ES6+)
 
-## Project Structure
-my-app/
-├── src/
-│ ├── App.js # Main application component
-│ ├── App.css # Application styling
-│ ├── TeacherCard.js # Teacher card component
-│ ├── RafayAli.png # Teacher profile image
-│ ├── AhmadKamran.png # Teacher profile image
-│ └── index.js # React entry point
-├── public/
-├── package.json
-└── README.md
-
 ## Getting Started
 
 ### Prerequisites
